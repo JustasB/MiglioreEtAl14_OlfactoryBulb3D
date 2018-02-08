@@ -2,7 +2,7 @@
 # pydevd.settrace('192.168.177.1', port=4200, suspend=False)
 
 
-def export(MCs = 30, GCsPerMC = 3, useOdorInput = True, odorInputMaxTime = 200, export_cells = True):
+def export(MCs = 60, GCsPerMC = 5, useOdorInput = True, odorInputMaxTime = 200, export_cells = True):
     import subprocess
 
     if export_cells:
